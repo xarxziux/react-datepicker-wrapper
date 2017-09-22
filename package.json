@@ -1,0 +1,32 @@
+{
+  "name": "date_picker_tests",
+  "version": "0.0.1",
+  "repository": "git@arlgitgisp01.ecorp.cat.com:DelanA0/react-datepicker-tests.git",
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "browserify": "^14.4.0",
+    "eslint": "^4.7.1",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0"
+  },
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-datepicker": "^0.44.0",
+    "react-dom": "^15.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "bash ./scripts/build.sh || echo Compilation failed",
+    "buildmain": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  },
+  "browserlist": [
+    "IE11"
+  ]
+}
